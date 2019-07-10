@@ -9,7 +9,7 @@
  * with this source code in the file LICENSE.
  */
 
-namespace Overtrue\LaravelWeChat\Events;
+namespace Ptx\LaravelWeChat\Events;
 
 use Illuminate\Queue\SerializesModels;
 use Overtrue\Socialite\User;
