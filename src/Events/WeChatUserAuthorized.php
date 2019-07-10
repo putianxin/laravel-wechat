@@ -12,7 +12,7 @@
 namespace Ptx\LaravelWeChat\Events;
 
 use Illuminate\Queue\SerializesModels;
-use Overtrue\Socialite\User;
+use Ptx\Socialite\User;
 
 class WeChatUserAuthorized
 {

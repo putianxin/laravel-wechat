@@ -11,11 +11,11 @@
 
 namespace Ptx\LaravelWeChat;
 
-use EasyWeChat\MiniProgram\Application as MiniProgram;
-use EasyWeChat\OfficialAccount\Application as OfficialAccount;
-use EasyWeChat\OpenPlatform\Application as OpenPlatform;
-use EasyWeChat\Payment\Application as Payment;
-use EasyWeChat\Work\Application as Work;
+use Ptx\MiniProgram\Application as MiniProgram;
+use Ptx\OfficialAccount\Application as OfficialAccount;
+use Ptx\OpenPlatform\Application as OpenPlatform;
+use Ptx\Payment\Application as Payment;
+use Ptx\Work\Application as Work;
 use Illuminate\Foundation\Application as LaravelApplication;
 use Illuminate\Support\ServiceProvider as LaravelServiceProvider;
 use Laravel\Lumen\Application as LumenApplication;

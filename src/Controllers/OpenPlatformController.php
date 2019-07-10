@@ -11,9 +11,9 @@
 
 namespace Ptx\LaravelWeChat\Controllers;
 
-use EasyWeChat\OpenPlatform\Application;
-use EasyWeChat\OpenPlatform\Server\Guard;
-use Overtrue\LaravelWeChat\Events\OpenPlatform as Events;
+use Ptx\OpenPlatform\Application;
+use Ptx\OpenPlatform\Server\Guard;
+use Ptx\LaravelWeChat\Events\OpenPlatform as Events;
 
 class OpenPlatformController extends Controller
 {

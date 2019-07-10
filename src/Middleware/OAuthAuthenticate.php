@@ -14,7 +14,7 @@ namespace Ptx\LaravelWeChat\Middleware;
 use Closure;
 use http\Env\Request;
 use Illuminate\Support\Arr;
-use Overtrue\LaravelWeChat\Events\WeChatUserAuthorized;
+use Ptx\LaravelWeChat\Events\WeChatUserAuthorized;
 
 /**
  * Class OAuthAuthenticate: 微信公众号, 企业微信的网页应用。
