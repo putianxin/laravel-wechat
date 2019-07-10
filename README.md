@@ -13,10 +13,10 @@ Laravel/Lumen >= 5.1
 
 ```shell
 # Laravel < 5.8
-composer require "overtrue/laravel-wechat:~4.0"
+composer require "putianxin/laravel-wechat:~4.0"
 
 # Laravel >= 5.8
-composer require "overtrue/laravel-wechat:~5.0"
+composer require "putianxin/laravel-wechat:~5.0"
 ```
 
 ## 配置
