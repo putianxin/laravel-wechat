@@ -11,7 +11,7 @@
     ],
     "require": {
         "illuminate/container": "^5.1",
-        "pt/wechat": "^4.0"
+        "ptx/wechat": "^4.0"
     },
     "autoload": {
         "psr-4": {
@@ -26,6 +26,12 @@
             "aliases": {
                 "EasyWeChat": "Ptx\\LaravelWeChat\\Facade"
             }
+        }
+    },
+    "repositories": {
+        "wechat": {
+            "type": "git",
+            "url": "https://github.com/putianxin/wechat.git"
         }
     }
 }
